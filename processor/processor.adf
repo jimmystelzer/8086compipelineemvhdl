@@ -1,0 +1,49 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=processor
+
+[Library]
+processor=.\processor.LIB
+
+[$LibMap$]
+processor=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+CSYNTH_TOOL=<none>
+PHYSSYNTH_TOOL=<none>
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+DVM_DISPLAY=NO
+FAMILY=
+
+[IMPLEMENTATION]
+UCF=
+
+[Files]
+/processor.vhd=-1
+/processor_tb.vhd=-1
+/processor.awf=-1
+
+[Files.Data]
+.\src\processor.vhd=VHDL Source Code
+.\src\processor_tb.vhd=VHDL Source Code
+.\src\processor.awf=Waveform File
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=ckt_tb|cfg_tb|1  
+ShowHide=ShowTopLevel
+Selected=

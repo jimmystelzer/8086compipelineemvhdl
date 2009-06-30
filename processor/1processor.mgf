@@ -1,0 +1,716 @@
+I 000045 55 943           1246387187501 behv
+(_unit VHDL (or_gate 0 16 (behv 0 23 ))
+  (_version v38)
+  (_time 1246387187515 2009.06.30 15:39:47)
+  (_source (\./src/processor.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1246387187485)
+    (_use )
+  )
+  (_object
+    (_port (_internal X ~extieee.std_logic_1164.std_logic 0 17 (_entity (_in ))))
+    (_port (_internal Y ~extieee.std_logic_1164.std_logic 0 18 (_entity (_in ))))
+    (_port (_internal F2 ~extieee.std_logic_1164.std_logic 0 19 (_entity (_out ))))
+    (_process
+      (line__25(_architecture 0 0 25 (_process (_simple)(_target(2))(_sensitivity(1)(0)))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+  )
+  (_model . behv 1 -1
+  )
+)
+I 000045 55 944           1246387187704 behv
+(_unit VHDL (and_gate 0 36 (behv 0 43 ))
+  (_version v38)
+  (_time 1246387187703 2009.06.30 15:39:47)
+  (_source (\./src/processor.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1246387187689)
+    (_use )
+  )
+  (_object
+    (_port (_internal A ~extieee.std_logic_1164.std_logic 0 37 (_entity (_in ))))
+    (_port (_internal B ~extieee.std_logic_1164.std_logic 0 38 (_entity (_in ))))
+    (_port (_internal F1 ~extieee.std_logic_1164.std_logic 0 39 (_entity (_out ))))
+    (_process
+      (line__45(_architecture 0 0 45 (_process (_simple)(_target(2))(_sensitivity(1)(0)))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+  )
+  (_model . behv 1 -1
+  )
+)
+I 000047 55 1993          1246387187769 struct
+(_unit VHDL (comb_ckt 0 57 (struct 0 65 ))
+  (_version v38)
+  (_time 1246387187765 2009.06.30 15:39:47)
+  (_source (\./src/processor.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1246387187767)
+    (_use )
+  )
+  (_component
+    (AND_GATE
+      (_object
+        (_port (_internal A ~extieee.std_logic_1164.std_logic 0 68 (_entity (_in ))))
+        (_port (_internal B ~extieee.std_logic_1164.std_logic 0 69 (_entity (_in ))))
+        (_port (_internal F1 ~extieee.std_logic_1164.std_logic 0 70 (_entity (_out ))))
+      )
+    )
+    (OR_GATE
+      (_object
+        (_port (_internal X ~extieee.std_logic_1164.std_logic 0 75 (_entity (_in ))))
+        (_port (_internal Y ~extieee.std_logic_1164.std_logic 0 76 (_entity (_in ))))
+        (_port (_internal F2 ~extieee.std_logic_1164.std_logic 0 77 (_entity (_out ))))
+      )
+    )
+  )
+  (_instantiation Gate1 0 87 (_component AND_GATE )
+    (_port
+      ((A)(input1))
+      ((B)(input2))
+      ((F1)(wire))
+    )
+    (_use (_entity . and_gate)
+    )
+  )
+  (_instantiation Gate2 0 88 (_component OR_GATE )
+    (_port
+      ((X)(wire))
+      ((Y)(input3))
+      ((F2)(output))
+    )
+    (_use (_entity . or_gate)
+    )
+  )
+  (_object
+    (_port (_internal input1 ~extieee.std_logic_1164.std_logic 0 58 (_entity (_in ))))
+    (_port (_internal input2 ~extieee.std_logic_1164.std_logic 0 59 (_entity (_in ))))
+    (_port (_internal input3 ~extieee.std_logic_1164.std_logic 0 60 (_entity (_in ))))
+    (_port (_internal output ~extieee.std_logic_1164.std_logic 0 61 (_entity (_out ))))
+    (_signal (_internal wire ~extieee.std_logic_1164.std_logic 0 81 (_architecture (_uni ))))
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+  )
+)
+I 000043 55 2227          1246387187797 TB
+(_unit VHDL (ckt_tb 0 18 (tb 0 23 ))
+  (_version v38)
+  (_time 1246387187796 2009.06.30 15:39:47)
+  (_source (\./src/processor_tb.vhd\))
+  (_use (std(standard))(ieee(std_logic_arith))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1246387187782)
+    (_use )
+  )
+  (_component
+    (comb_ckt
+      (_object
+        (_port (_internal input1 ~extieee.std_logic_1164.std_logic 0 28 (_entity (_in ))))
+        (_port (_internal input2 ~extieee.std_logic_1164.std_logic 0 29 (_entity (_in ))))
+        (_port (_internal input3 ~extieee.std_logic_1164.std_logic 0 30 (_entity (_in ))))
+        (_port (_internal output ~extieee.std_logic_1164.std_logic 0 31 (_entity (_out ))))
+      )
+    )
+  )
+  (_instantiation U_UT 0 42 (_component comb_ckt )
+    (_port
+      ((input1)(T_input1))
+      ((input2)(T_input2))
+      ((input3)(T_input3))
+      ((output)(T_output))
+    )
+    (_use (_entity . comb_ckt)
+    )
+  )
+  (_object
+    (_signal (_internal T_input1 ~extieee.std_logic_1164.std_logic 0 38 (_architecture (_uni ))))
+    (_signal (_internal T_input2 ~extieee.std_logic_1164.std_logic 0 38 (_architecture (_uni ))))
+    (_signal (_internal T_input3 ~extieee.std_logic_1164.std_logic 0 38 (_architecture (_uni ))))
+    (_signal (_internal T_output ~extieee.std_logic_1164.std_logic 0 38 (_architecture (_uni ))))
+    (_variable (_internal err_cnt ~extSTD.STANDARD.INTEGER 0 46 (_process 0 ((i 0)))))
+    (_process
+      (line__44(_architecture 0 0 44 (_process (_wait_for)(_target(0)(1)(2))(_read(0)(1)(2)(3)))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+  )
+  (_static
+    (1818845510 1126196325 828732257 33 )
+    (1818845510 1126196325 828732257 33 )
+    (1818845510 1126196325 828732257 33 )
+    (1818845510 1126196325 828732257 33 )
+    (1953719636 1668179298 1868767336 1701605485 543450484 1667462515 1718842213 2037148789 33 )
+  )
+  (_model . TB 1 -1
+  )
+)
+I 000025 55 271 0 cfg_tb
+(_configuration VHDL (cfg_tb 0 111 (CKT_TB))
+  (_version v38)
+  (_time 1246387187890 2009.06.30 15:39:47)
+  (_source (\./src/processor_tb.vhd\))
+  (_use (std(standard))(ieee(std_logic_arith))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_architecture TB
+  )
+)
+I 000045 55 943           1246387262126 behv
+(_unit VHDL (or_gate 0 16 (behv 0 23 ))
+  (_version v38)
+  (_time 1246387262125 2009.06.30 15:41:02)
+  (_source (\./src/processor.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1246387187485)
+    (_use )
+  )
+  (_object
+    (_port (_internal X ~extieee.std_logic_1164.std_logic 0 17 (_entity (_in ))))
+    (_port (_internal Y ~extieee.std_logic_1164.std_logic 0 18 (_entity (_in ))))
+    (_port (_internal F2 ~extieee.std_logic_1164.std_logic 0 19 (_entity (_out ))))
+    (_process
+      (line__25(_architecture 0 0 25 (_process (_simple)(_target(2))(_sensitivity(1)(0)))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+  )
+  (_model . behv 1 -1
+  )
+)
+I 000045 55 944           1246387262206 behv
+(_unit VHDL (and_gate 0 36 (behv 0 43 ))
+  (_version v38)
+  (_time 1246387262203 2009.06.30 15:41:02)
+  (_source (\./src/processor.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1246387187689)
+    (_use )
+  )
+  (_object
+    (_port (_internal A ~extieee.std_logic_1164.std_logic 0 37 (_entity (_in ))))
+    (_port (_internal B ~extieee.std_logic_1164.std_logic 0 38 (_entity (_in ))))
+    (_port (_internal F1 ~extieee.std_logic_1164.std_logic 0 39 (_entity (_out ))))
+    (_process
+      (line__45(_architecture 0 0 45 (_process (_simple)(_target(2))(_sensitivity(1)(0)))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+  )
+  (_model . behv 1 -1
+  )
+)
+I 000047 55 1993          1246387262269 struct
+(_unit VHDL (comb_ckt 0 57 (struct 0 65 ))
+  (_version v38)
+  (_time 1246387262265 2009.06.30 15:41:02)
+  (_source (\./src/processor.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1246387187767)
+    (_use )
+  )
+  (_component
+    (AND_GATE
+      (_object
+        (_port (_internal A ~extieee.std_logic_1164.std_logic 0 68 (_entity (_in ))))
+        (_port (_internal B ~extieee.std_logic_1164.std_logic 0 69 (_entity (_in ))))
+        (_port (_internal F1 ~extieee.std_logic_1164.std_logic 0 70 (_entity (_out ))))
+      )
+    )
+    (OR_GATE
+      (_object
+        (_port (_internal X ~extieee.std_logic_1164.std_logic 0 75 (_entity (_in ))))
+        (_port (_internal Y ~extieee.std_logic_1164.std_logic 0 76 (_entity (_in ))))
+        (_port (_internal F2 ~extieee.std_logic_1164.std_logic 0 77 (_entity (_out ))))
+      )
+    )
+  )
+  (_instantiation Gate1 0 87 (_component AND_GATE )
+    (_port
+      ((A)(input1))
+      ((B)(input2))
+      ((F1)(wire))
+    )
+    (_use (_entity . and_gate)
+    )
+  )
+  (_instantiation Gate2 0 88 (_component OR_GATE )
+    (_port
+      ((X)(wire))
+      ((Y)(input3))
+      ((F2)(output))
+    )
+    (_use (_entity . or_gate)
+    )
+  )
+  (_object
+    (_port (_internal input1 ~extieee.std_logic_1164.std_logic 0 58 (_entity (_in ))))
+    (_port (_internal input2 ~extieee.std_logic_1164.std_logic 0 59 (_entity (_in ))))
+    (_port (_internal input3 ~extieee.std_logic_1164.std_logic 0 60 (_entity (_in ))))
+    (_port (_internal output ~extieee.std_logic_1164.std_logic 0 61 (_entity (_out ))))
+    (_signal (_internal wire ~extieee.std_logic_1164.std_logic 0 81 (_architecture (_uni ))))
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+  )
+)
+I 000043 55 2227          1246387262313 TB
+(_unit VHDL (ckt_tb 0 18 (tb 0 23 ))
+  (_version v38)
+  (_time 1246387262312 2009.06.30 15:41:02)
+  (_source (\./src/processor_tb.vhd\))
+  (_use (std(standard))(ieee(std_logic_arith))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1246387187782)
+    (_use )
+  )
+  (_component
+    (comb_ckt
+      (_object
+        (_port (_internal input1 ~extieee.std_logic_1164.std_logic 0 28 (_entity (_in ))))
+        (_port (_internal input2 ~extieee.std_logic_1164.std_logic 0 29 (_entity (_in ))))
+        (_port (_internal input3 ~extieee.std_logic_1164.std_logic 0 30 (_entity (_in ))))
+        (_port (_internal output ~extieee.std_logic_1164.std_logic 0 31 (_entity (_out ))))
+      )
+    )
+  )
+  (_instantiation U_UT 0 42 (_component comb_ckt )
+    (_port
+      ((input1)(T_input1))
+      ((input2)(T_input2))
+      ((input3)(T_input3))
+      ((output)(T_output))
+    )
+    (_use (_entity . comb_ckt)
+    )
+  )
+  (_object
+    (_signal (_internal T_input1 ~extieee.std_logic_1164.std_logic 0 38 (_architecture (_uni ))))
+    (_signal (_internal T_input2 ~extieee.std_logic_1164.std_logic 0 38 (_architecture (_uni ))))
+    (_signal (_internal T_input3 ~extieee.std_logic_1164.std_logic 0 38 (_architecture (_uni ))))
+    (_signal (_internal T_output ~extieee.std_logic_1164.std_logic 0 38 (_architecture (_uni ))))
+    (_variable (_internal err_cnt ~extSTD.STANDARD.INTEGER 0 46 (_process 0 ((i 0)))))
+    (_process
+      (line__44(_architecture 0 0 44 (_process (_wait_for)(_target(0)(1)(2))(_read(0)(1)(2)(3)))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+  )
+  (_static
+    (1818845510 1126196325 828732257 33 )
+    (1818845510 1126196325 828732257 33 )
+    (1818845510 1126196325 828732257 33 )
+    (1818845510 1126196325 828732257 33 )
+    (1953719636 1668179298 1868767336 1701605485 543450484 1667462515 1718842213 2037148789 33 )
+  )
+  (_model . TB 1 -1
+  )
+)
+I 000025 55 271 0 cfg_tb
+(_configuration VHDL (cfg_tb 0 111 (CKT_TB))
+  (_version v38)
+  (_time 1246387262375 2009.06.30 15:41:02)
+  (_source (\./src/processor_tb.vhd\))
+  (_use (std(standard))(ieee(std_logic_arith))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_architecture TB
+  )
+)
+I 000045 55 943           1246387276315 behv
+(_unit VHDL (or_gate 0 16 (behv 0 23 ))
+  (_version v38)
+  (_time 1246387276312 2009.06.30 15:41:16)
+  (_source (\./src/processor.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1246387187485)
+    (_use )
+  )
+  (_object
+    (_port (_internal X ~extieee.std_logic_1164.std_logic 0 17 (_entity (_in ))))
+    (_port (_internal Y ~extieee.std_logic_1164.std_logic 0 18 (_entity (_in ))))
+    (_port (_internal F2 ~extieee.std_logic_1164.std_logic 0 19 (_entity (_out ))))
+    (_process
+      (line__25(_architecture 0 0 25 (_process (_simple)(_target(2))(_sensitivity(1)(0)))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+  )
+  (_model . behv 1 -1
+  )
+)
+I 000045 55 944           1246387276409 behv
+(_unit VHDL (and_gate 0 36 (behv 0 43 ))
+  (_version v38)
+  (_time 1246387276406 2009.06.30 15:41:16)
+  (_source (\./src/processor.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1246387187689)
+    (_use )
+  )
+  (_object
+    (_port (_internal A ~extieee.std_logic_1164.std_logic 0 37 (_entity (_in ))))
+    (_port (_internal B ~extieee.std_logic_1164.std_logic 0 38 (_entity (_in ))))
+    (_port (_internal F1 ~extieee.std_logic_1164.std_logic 0 39 (_entity (_out ))))
+    (_process
+      (line__45(_architecture 0 0 45 (_process (_simple)(_target(2))(_sensitivity(0)(1)))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+  )
+  (_model . behv 1 -1
+  )
+)
+I 000047 55 1993          1246387276472 struct
+(_unit VHDL (comb_ckt 0 57 (struct 0 65 ))
+  (_version v38)
+  (_time 1246387276468 2009.06.30 15:41:16)
+  (_source (\./src/processor.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1246387187767)
+    (_use )
+  )
+  (_component
+    (AND_GATE
+      (_object
+        (_port (_internal A ~extieee.std_logic_1164.std_logic 0 68 (_entity (_in ))))
+        (_port (_internal B ~extieee.std_logic_1164.std_logic 0 69 (_entity (_in ))))
+        (_port (_internal F1 ~extieee.std_logic_1164.std_logic 0 70 (_entity (_out ))))
+      )
+    )
+    (OR_GATE
+      (_object
+        (_port (_internal X ~extieee.std_logic_1164.std_logic 0 75 (_entity (_in ))))
+        (_port (_internal Y ~extieee.std_logic_1164.std_logic 0 76 (_entity (_in ))))
+        (_port (_internal F2 ~extieee.std_logic_1164.std_logic 0 77 (_entity (_out ))))
+      )
+    )
+  )
+  (_instantiation Gate1 0 87 (_component AND_GATE )
+    (_port
+      ((A)(input1))
+      ((B)(input2))
+      ((F1)(wire))
+    )
+    (_use (_entity . and_gate)
+    )
+  )
+  (_instantiation Gate2 0 88 (_component OR_GATE )
+    (_port
+      ((X)(wire))
+      ((Y)(input3))
+      ((F2)(output))
+    )
+    (_use (_entity . or_gate)
+    )
+  )
+  (_object
+    (_port (_internal input1 ~extieee.std_logic_1164.std_logic 0 58 (_entity (_in ))))
+    (_port (_internal input2 ~extieee.std_logic_1164.std_logic 0 59 (_entity (_in ))))
+    (_port (_internal input3 ~extieee.std_logic_1164.std_logic 0 60 (_entity (_in ))))
+    (_port (_internal output ~extieee.std_logic_1164.std_logic 0 61 (_entity (_out ))))
+    (_signal (_internal wire ~extieee.std_logic_1164.std_logic 0 81 (_architecture (_uni ))))
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+  )
+)
+I 000043 55 2227          1246387276501 TB
+(_unit VHDL (ckt_tb 0 18 (tb 0 23 ))
+  (_version v38)
+  (_time 1246387276500 2009.06.30 15:41:16)
+  (_source (\./src/processor_tb.vhd\))
+  (_use (std(standard))(ieee(std_logic_arith))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1246387187782)
+    (_use )
+  )
+  (_component
+    (comb_ckt
+      (_object
+        (_port (_internal input1 ~extieee.std_logic_1164.std_logic 0 28 (_entity (_in ))))
+        (_port (_internal input2 ~extieee.std_logic_1164.std_logic 0 29 (_entity (_in ))))
+        (_port (_internal input3 ~extieee.std_logic_1164.std_logic 0 30 (_entity (_in ))))
+        (_port (_internal output ~extieee.std_logic_1164.std_logic 0 31 (_entity (_out ))))
+      )
+    )
+  )
+  (_instantiation U_UT 0 42 (_component comb_ckt )
+    (_port
+      ((input1)(T_input1))
+      ((input2)(T_input2))
+      ((input3)(T_input3))
+      ((output)(T_output))
+    )
+    (_use (_entity . comb_ckt)
+    )
+  )
+  (_object
+    (_signal (_internal T_input1 ~extieee.std_logic_1164.std_logic 0 38 (_architecture (_uni ))))
+    (_signal (_internal T_input2 ~extieee.std_logic_1164.std_logic 0 38 (_architecture (_uni ))))
+    (_signal (_internal T_input3 ~extieee.std_logic_1164.std_logic 0 38 (_architecture (_uni ))))
+    (_signal (_internal T_output ~extieee.std_logic_1164.std_logic 0 38 (_architecture (_uni ))))
+    (_variable (_internal err_cnt ~extSTD.STANDARD.INTEGER 0 46 (_process 0 ((i 0)))))
+    (_process
+      (line__44(_architecture 0 0 44 (_process (_wait_for)(_target(0)(1)(2))(_read(0)(1)(2)(3)))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+  )
+  (_static
+    (1818845510 1126196325 828732257 33 )
+    (1818845510 1126196325 828732257 33 )
+    (1818845510 1126196325 828732257 33 )
+    (1818845510 1126196325 828732257 33 )
+    (1953719636 1668179298 1868767336 1701605485 543450484 1667462515 1718842213 2037148789 33 )
+  )
+  (_model . TB 1 -1
+  )
+)
+I 000025 55 271 0 cfg_tb
+(_configuration VHDL (cfg_tb 0 111 (CKT_TB))
+  (_version v38)
+  (_time 1246387276593 2009.06.30 15:41:16)
+  (_source (\./src/processor_tb.vhd\))
+  (_use (std(standard))(ieee(std_logic_arith))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_architecture TB
+  )
+)
+V 000045 55 943           1246387969909 behv
+(_unit VHDL (or_gate 0 16 (behv 0 23 ))
+  (_version v38)
+  (_time 1246387969906 2009.06.30 15:52:49)
+  (_source (\./src/processor.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1246387187485)
+    (_use )
+  )
+  (_object
+    (_port (_internal X ~extieee.std_logic_1164.std_logic 0 17 (_entity (_in ))))
+    (_port (_internal Y ~extieee.std_logic_1164.std_logic 0 18 (_entity (_in ))))
+    (_port (_internal F2 ~extieee.std_logic_1164.std_logic 0 19 (_entity (_out ))))
+    (_process
+      (line__25(_architecture 0 0 25 (_process (_simple)(_target(2))(_sensitivity(1)(0)))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+  )
+  (_model . behv 1 -1
+  )
+)
+V 000045 55 944           1246387970003 behv
+(_unit VHDL (and_gate 0 36 (behv 0 43 ))
+  (_version v38)
+  (_time 1246387970000 2009.06.30 15:52:50)
+  (_source (\./src/processor.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1246387187689)
+    (_use )
+  )
+  (_object
+    (_port (_internal A ~extieee.std_logic_1164.std_logic 0 37 (_entity (_in ))))
+    (_port (_internal B ~extieee.std_logic_1164.std_logic 0 38 (_entity (_in ))))
+    (_port (_internal F1 ~extieee.std_logic_1164.std_logic 0 39 (_entity (_out ))))
+    (_process
+      (line__45(_architecture 0 0 45 (_process (_simple)(_target(2))(_sensitivity(0)(1)))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+  )
+  (_model . behv 1 -1
+  )
+)
+V 000047 55 1993          1246387970082 struct
+(_unit VHDL (comb_ckt 0 57 (struct 0 65 ))
+  (_version v38)
+  (_time 1246387970078 2009.06.30 15:52:50)
+  (_source (\./src/processor.vhd\))
+  (_use (std(standard))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1246387187767)
+    (_use )
+  )
+  (_component
+    (AND_GATE
+      (_object
+        (_port (_internal A ~extieee.std_logic_1164.std_logic 0 68 (_entity (_in ))))
+        (_port (_internal B ~extieee.std_logic_1164.std_logic 0 69 (_entity (_in ))))
+        (_port (_internal F1 ~extieee.std_logic_1164.std_logic 0 70 (_entity (_out ))))
+      )
+    )
+    (OR_GATE
+      (_object
+        (_port (_internal X ~extieee.std_logic_1164.std_logic 0 75 (_entity (_in ))))
+        (_port (_internal Y ~extieee.std_logic_1164.std_logic 0 76 (_entity (_in ))))
+        (_port (_internal F2 ~extieee.std_logic_1164.std_logic 0 77 (_entity (_out ))))
+      )
+    )
+  )
+  (_instantiation Gate1 0 87 (_component AND_GATE )
+    (_port
+      ((A)(input1))
+      ((B)(input2))
+      ((F1)(wire))
+    )
+    (_use (_entity . and_gate)
+    )
+  )
+  (_instantiation Gate2 0 88 (_component OR_GATE )
+    (_port
+      ((X)(wire))
+      ((Y)(input3))
+      ((F2)(output))
+    )
+    (_use (_entity . or_gate)
+    )
+  )
+  (_object
+    (_port (_internal input1 ~extieee.std_logic_1164.std_logic 0 58 (_entity (_in ))))
+    (_port (_internal input2 ~extieee.std_logic_1164.std_logic 0 59 (_entity (_in ))))
+    (_port (_internal input3 ~extieee.std_logic_1164.std_logic 0 60 (_entity (_in ))))
+    (_port (_internal output ~extieee.std_logic_1164.std_logic 0 61 (_entity (_out ))))
+    (_signal (_internal wire ~extieee.std_logic_1164.std_logic 0 81 (_architecture (_uni ))))
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+  )
+)
+V 000043 55 2227          1246387970110 TB
+(_unit VHDL (ckt_tb 0 18 (tb 0 23 ))
+  (_version v38)
+  (_time 1246387970109 2009.06.30 15:52:50)
+  (_source (\./src/processor_tb.vhd\))
+  (_use (std(standard))(ieee(std_logic_arith))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_entity
+    (_time 1246387187782)
+    (_use )
+  )
+  (_component
+    (comb_ckt
+      (_object
+        (_port (_internal input1 ~extieee.std_logic_1164.std_logic 0 28 (_entity (_in ))))
+        (_port (_internal input2 ~extieee.std_logic_1164.std_logic 0 29 (_entity (_in ))))
+        (_port (_internal input3 ~extieee.std_logic_1164.std_logic 0 30 (_entity (_in ))))
+        (_port (_internal output ~extieee.std_logic_1164.std_logic 0 31 (_entity (_out ))))
+      )
+    )
+  )
+  (_instantiation U_UT 0 42 (_component comb_ckt )
+    (_port
+      ((input1)(T_input1))
+      ((input2)(T_input2))
+      ((input3)(T_input3))
+      ((output)(T_output))
+    )
+    (_use (_entity . comb_ckt)
+    )
+  )
+  (_object
+    (_signal (_internal T_input1 ~extieee.std_logic_1164.std_logic 0 38 (_architecture (_uni ))))
+    (_signal (_internal T_input2 ~extieee.std_logic_1164.std_logic 0 38 (_architecture (_uni ))))
+    (_signal (_internal T_input3 ~extieee.std_logic_1164.std_logic 0 38 (_architecture (_uni ))))
+    (_signal (_internal T_output ~extieee.std_logic_1164.std_logic 0 38 (_architecture (_uni ))))
+    (_variable (_internal err_cnt ~extSTD.STANDARD.INTEGER 0 46 (_process 0 ((i 0)))))
+    (_process
+      (line__44(_architecture 0 0 44 (_process (_wait_for)(_target(0)(1)(2))(_read(0)(1)(2)(3)))))
+    )
+    (_subprogram
+      (_external resolved (ieee std_logic_1164 0))
+    )
+    (_type (_external ~extieee.std_logic_1164.std_ulogic (ieee std_logic_1164 std_ulogic)))
+    (_type (_external ~extieee.std_logic_1164.std_logic (ieee std_logic_1164 std_logic)))
+    (_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+  )
+  (_static
+    (1818845510 1126196325 828732257 33 )
+    (1818845510 1126196325 828732257 33 )
+    (1818845510 1126196325 828732257 33 )
+    (1818845510 1126196325 828732257 33 )
+    (1953719636 1668179298 1868767336 1701605485 543450484 1667462515 1718842213 2037148789 33 )
+  )
+  (_model . TB 1 -1
+  )
+)
+V 000025 55 271 0 cfg_tb
+(_configuration VHDL (cfg_tb 0 111 (CKT_TB))
+  (_version v38)
+  (_time 1246387970187 2009.06.30 15:52:50)
+  (_source (\./src/processor_tb.vhd\))
+  (_use (std(standard))(ieee(std_logic_arith))(ieee(std_logic_1164)))
+  (_parameters dbg )
+  (_architecture TB
+  )
+)

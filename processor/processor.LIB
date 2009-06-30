@@ -1,0 +1,63 @@
+timestamp=1246387970218
+
+[and_gate]
+A/behv=21|./src/processor.vhd|43|1*20737
+B/behv=3*16095
+H/behv=0*21672
+I/behv=0*21992
+M=11|0|v38|1246387187688|./src/processor.vhd|0*2258*0xf97d4a0e316bdfe505ad4fd0862c693c6ee4c5cd|0*2475*0xab87650576a395126dc296abb9b0e065
+M/behv=21|0|v38|1246387970002|./src/processor.vhd|0*21755*0x61ada538906d59a61d843e045f597cdfe8f68f32|0*21915*0xab87650576a395126dc296abb9b0e065
+R=./src/processor.vhd|36
+V=0*1904
+
+[cfg_tb]
+E=1*26036
+I=0*26836
+M=2|0|v38|1246387970187|./src/processor_tb.vhd|0*26623*0x710360f0d116db55d5471dcc3fb7ed83029e20f4|0*26757*0xab87650576a395126dc296abb9b0e065
+R=./src/processor_tb.vhd|111
+
+[ckt_tb]
+A/tb=A/TB 21|./src/processor_tb.vhd|23|1*23766
+B/tb=3*16578
+H/tb=0*23860
+I/tb=I/TB 0*26399
+M=11|0|v38|1246387187781|./src/processor_tb.vhd|0*7117*0x391df4e3504e819dcc6032b4cebf89d21161cbef|0*7294*0xab87650576a395126dc296abb9b0e065
+M/tb=M/TB 21|0|v38|1246387970109|./src/processor_tb.vhd|0*24752*0x57ce0cd3434b8544a40c088713b45af03e8c9da4|0*26323*0xab87650576a395126dc296abb9b0e065
+R=./src/processor_tb.vhd|18
+V=0*7035
+
+[comb_ckt]
+A/struct=21|./src/processor.vhd|65|1*21726
+H/struct=0*22099
+I/struct=0*23641
+M=11|0|v38|1246387187766|./src/processor.vhd|0*4787*0x0dd27583a93339346fa132f870a1324dc14bc5de|0*5057*0xab87650576a395126dc296abb9b0e065
+M/struct=21|0|v38|1246387970081|./src/processor.vhd|0*23095*0xa8a39d0bc8f999b81ad57cdd476651cd359affd6|0*23562*0xab87650576a395126dc296abb9b0e065
+R=./src/processor.vhd|57
+V=0*4343
+
+[or_gate]
+A/behv=21|./src/processor.vhd|23|1*19749
+B/behv=3*15612
+H/behv=0*21249
+I/behv=0*21566
+M=11|0|v38|1246387187484|./src/processor.vhd|0*815*0x174227833b108100e9dacf65b7a2b8d944961b49|0*1029*0xab87650576a395126dc296abb9b0e065
+M/behv=21|0|v38|1246387969908|./src/processor.vhd|0*21332*0x080289642edf3e6c9ba742846089943999a83a47|0*21490*0xab87650576a395126dc296abb9b0e065
+R=./src/processor.vhd|16
+V=0*462
+
+[~A]
+ModifyID=93
+Version=73
+
+[~MFT]
+0=119|0processor.mgf|26836|8085
+1=34|1processor.mgf|26036|19749
+3=20|3processor.mgf|16578|15612
+
+[~U]
+and_gate=AND_GATE 11|0*1520|0*1673
+cfg_tb=CFG_TB 2||
+ckt_tb=CKT_TB 11|0*6783|0*6842
+comb_ckt=11|0*3884|0*4074
+or_gate=OR_GATE 11|0*83|0*233
+

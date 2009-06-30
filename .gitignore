@@ -1,0 +1,3 @@
+processor/log/**
+processor/compile/**
+processor/elaboration.log
