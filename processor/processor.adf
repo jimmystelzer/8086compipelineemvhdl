@@ -44,6 +44,6 @@ UCF=
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=ckt_tb|cfg_tb|1  
+HierarchyInformation=ckt_tb|cfg_tb|1    
 ShowHide=ShowTopLevel
 Selected=
