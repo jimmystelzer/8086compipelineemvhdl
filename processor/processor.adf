@@ -5,13 +5,13 @@ version=1
 Current Config=compile
 
 [Configurations]
-compile=processor
+compile=Processor
 
 [Library]
-processor=.\processor.LIB
+Processor=.\Processor.LIB
 
 [$LibMap$]
-processor=.
+Processor=.
 Active_lib=
 
 [Settings]
@@ -34,16 +34,12 @@ UCF=
 
 [Files]
 /processor.vhd=-1
-/processor_tb.vhd=-1
-/processor.awf=-1
 
 [Files.Data]
 .\src\processor.vhd=VHDL Source Code
-.\src\processor_tb.vhd=VHDL Source Code
-.\src\processor.awf=Waveform File
 
 [HierarchyViewer]
 SortInfo=u
-HierarchyInformation=ckt_tb|cfg_tb|1    
+HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=

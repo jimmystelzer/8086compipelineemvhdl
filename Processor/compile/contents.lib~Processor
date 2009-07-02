@@ -1,0 +1,15 @@
+1288
+~E 1 "./src/processor.vhd" 193 control_unit
+~A 1 "./src/processor.vhd" 201 control_unit
+~E 1 "./src/processor.vhd" 278 biu
+~A 1 "./src/processor.vhd" 293 biu
+~E 1 "./src/processor.vhd" 143 alu
+~A 1 "./src/processor.vhd" 152 alu
+~E 1 "./src/processor.vhd" 340 chip
+~A 1 "./src/processor.vhd" 348 chip
+~E 1 "./src/processor.vhd" 69 reg16
+~A 1 "./src/processor.vhd" 77 reg16
+~E 1 "./src/processor.vhd" 99 reg_bank
+~A 1 "./src/processor.vhd" 107 reg_bank
+~E 1 "./src/processor.vhd" 37 regpl
+~A 1 "./src/processor.vhd" 47 regpl

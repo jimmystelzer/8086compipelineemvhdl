@@ -1,0 +1,855 @@
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Error: COMP96_0055: processor.vhd : (277, 9): Cannot find referenced context element.
+# Compile Architecture "biu_A" of Entity "biu"
+# Error: COMP96_0015: processor.vhd : (341, 5): ';' expected.
+# Error: COMP96_0019: processor.vhd : (341, 5): Keyword "end" expected.
+# Error: COMP96_0016: processor.vhd : (341, 7): Design unit declaration expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu_A" of Entity "biu"
+# Error: COMP96_0015: processor.vhd : (340, 5): ';' expected.
+# Error: COMP96_0019: processor.vhd : (340, 5): Keyword "end" expected.
+# Error: COMP96_0016: processor.vhd : (340, 7): Design unit declaration expected.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu_A" of Entity "biu"
+# Error: COMP96_0078: processor.vhd : (294, 27): Unknown identifier "interger".
+# Error: COMP96_0064: processor.vhd : (294, 27): Unknown type.
+# Error: COMP96_0234: Fatal error : INTERNAL COMPILER ERROR
+#   (compiled file "C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd" - semantic process)
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu_A" of Entity "biu"
+# Error: COMP96_0078: processor.vhd : (294, 27): Unknown identifier "interger".
+# Error: COMP96_0064: processor.vhd : (294, 27): Unknown type.
+# Error: COMP96_0234: Fatal error : INTERNAL COMPILER ERROR
+#   (compiled file "C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd" - semantic process)
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu_A" of Entity "biu"
+# Error: COMP96_0083: processor.vhd : (310, 6): The type of a choice expression does not match the case expression.
+# Error: COMP96_0083: processor.vhd : (314, 6): The type of a choice expression does not match the case expression.
+# Error: COMP96_0083: processor.vhd : (326, 6): The type of a choice expression does not match the case expression.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu_A" of Entity "biu"
+# Error: COMP96_0083: processor.vhd : (310, 10): The type of a choice expression does not match the case expression.
+# Error: COMP96_0083: processor.vhd : (314, 10): The type of a choice expression does not match the case expression.
+# Error: COMP96_0083: processor.vhd : (326, 10): The type of a choice expression does not match the case expression.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu_A" of Entity "biu"
+# Error: COMP96_0078: processor.vhd : (297, 16): Unknown identifier "clk".
+# Error: COMP96_0078: processor.vhd : (297, 20): Unknown identifier "rst".
+# Error: COMP96_0348: processor.vhd : (297, 15): Name on sensitivity list must denote a signal.
+# Error: COMP96_0078: processor.vhd : (304, 9): Unknown identifier "clk".
+# Error: COMP96_0133: processor.vhd : (304, 9): Cannot find object declaration.
+# Error: COMP96_0124: processor.vhd : (304, 12): Illegal prefix for attribute "event".
+# Error: COMP96_0078: processor.vhd : (304, 23): Unknown identifier "clk".
+# Error: COMP96_0133: processor.vhd : (304, 23): Cannot find object declaration.
+# Error: COMP96_0104: processor.vhd : (304, 8): Undefined type of expression.
+# Error: COMP96_0098: processor.vhd : (304, 8): Boolean type expected.
+# Error: COMP96_0083: processor.vhd : (323, 10): The type of a choice expression does not match the case expression.
+# Compile failure 11 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu_A" of Entity "biu"
+# Error: ELAB1_0008: processor.vhd : (333, 9): Cannot read output : "we_b".
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Error: COMP96_0078: processor.vhd : (299, 12): Unknown identifier "addrin".
+# Error: COMP96_0133: processor.vhd : (299, 12): Cannot find object declaration.
+# Error: COMP96_0104: processor.vhd : (299, 12): Undefined type of expression.
+# Error: COMP96_0077: processor.vhd : (299, 12): Assignment target incompatible with right side. Expected type "std_logic_vector".
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Error: COMP96_0015: processor.vhd : (304, 5): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Error: COMP96_0078: processor.vhd : (297, 4): Unknown identifier "count".
+# Error: COMP96_0133: processor.vhd : (297, 4): Cannot find object declaration.
+# Error: COMP96_0071: processor.vhd : (302, 30): Operator "+" is not defined for such operands.
+# Error: COMP96_0094: processor.vhd : (302, 30): Locally static expression is required in the range definition.
+# Error: COMP96_0121: processor.vhd : (302, 21): The type bounds of this range are not compatible.
+# Error: COMP96_0367: processor.vhd : (302, 16): Improper array length. Actual length is 1024. Expected length is 40.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Error: COMP96_0071: processor.vhd : (302, 30): Operator "+" is not defined for such operands.
+# Error: COMP96_0094: processor.vhd : (302, 30): Locally static expression is required in the range definition.
+# Error: COMP96_0121: processor.vhd : (302, 21): The type bounds of this range are not compatible.
+# Error: COMP96_0367: processor.vhd : (302, 16): Improper array length. Actual length is 1024. Expected length is 40.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Error: COMP96_0015: processor.vhd : (294, 1): ';' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Error: COMP96_0121: processor.vhd : (305, 21): The type bounds of this range are not compatible.
+# Error: COMP96_0367: processor.vhd : (305, 16): Improper array length. Actual length is 1024. Expected length is 40.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Error: COMP96_0121: processor.vhd : (305, 21): The type bounds of this range are not compatible.
+# Error: COMP96_0367: processor.vhd : (305, 16): Improper array length. Actual length is 1024. Expected length is 40.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Error: COMP96_0121: processor.vhd : (305, 21): The type bounds of this range are not compatible.
+# Error: COMP96_0367: processor.vhd : (305, 16): Improper array length. Actual length is 1024. Expected length is 40.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Error: COMP96_0121: processor.vhd : (306, 21): The type bounds of this range are not compatible.
+# Error: COMP96_0367: processor.vhd : (306, 16): Improper array length. Actual length is 1024. Expected length is 40.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Error: COMP96_0015: processor.vhd : (288, 4): ';' expected.
+# Compile Architecture "biu" of Entity "biu"
+# Error: COMP96_0078: processor.vhd : (311, 29): Unknown identifier "datain".
+# Error: COMP96_0133: processor.vhd : (311, 29): Cannot find object declaration.
+# Error: COMP96_0104: processor.vhd : (311, 29): Undefined type of expression.
+# Error: COMP96_0077: processor.vhd : (311, 29): Assignment target incompatible with right side. Expected type "std_logic_vector".
+# Compile failure 5 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Error: COMP96_0078: processor.vhd : (320, 2): Unknown identifier "data".
+# Error: COMP96_0133: processor.vhd : (320, 2): Cannot find object declaration.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile Entity "chip"
+# Error: COMP96_0018: processor.vhd : (344, 11): Identifier expected.
+# Compile Architecture "chip" of Entity "chip"
+# Error: COMP96_0056: processor.vhd : (347, 1): Cannot find referenced entity declaration "chip".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile Entity "chip"
+# Compile Architecture "chip" of Entity "chip"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile Entity "chip"
+# Compile Architecture "chip" of Entity "chip"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile Entity "chip"
+# Compile Architecture "chip" of Entity "chip"
+# Error: COMP96_0077: processor.vhd : (350, 28): Assignment target incompatible with right side. Expected type "std_ulogic".
+# Error: COMP96_0077: processor.vhd : (351, 29): Assignment target incompatible with right side. Expected type "std_ulogic".
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile Entity "chip"
+# Compile Architecture "chip" of Entity "chip"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Error: COMP96_0015: processor.vhd : (146, 3): ';' expected.
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile Entity "chip"
+# Compile Architecture "chip" of Entity "chip"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Error: COMP96_0367: processor.vhd : (180, 3): Improper array length. Actual length is 32. Expected length is 16.
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile Entity "chip"
+# Compile Architecture "chip" of Entity "chip"
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.3 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile Entity "chip"
+# Compile Architecture "chip" of Entity "chip"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile Entity "chip"
+# Compile Architecture "chip" of Entity "chip"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile Entity "chip"
+# Compile Architecture "chip" of Entity "chip"
+# Error: COMP96_0078: processor.vhd : (361, 59): Unknown identifier "param".
+# Error: COMP96_0133: processor.vhd : (361, 59): Cannot find object declaration.
+# Error: COMP96_0104: processor.vhd : (361, 52): Undefined type of expression.
+# Error: COMP96_0113: processor.vhd : (361, 78): Positional associations must precede named associations.
+# Error: COMP96_0207: processor.vhd : (361, 0): No actual specified for local port "opalu".
+# Error: COMP96_0207: processor.vhd : (361, 0): No actual specified for local port "w".
+# Error: COMP96_0207: processor.vhd : (363, 0): No actual specified for local port "enable".
+# Error: COMP96_0207: processor.vhd : (363, 0): No actual specified for local port "w".
+# Error: COMP96_0207: processor.vhd : (363, 0): No actual specified for local port "RsCode".
+# Error: COMP96_0207: processor.vhd : (363, 0): No actual specified for local port "RdCode".
+# Error: COMP96_0207: processor.vhd : (363, 0): No actual specified for local port "RD".
+# Compile failure 11 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile Entity "chip"
+# Compile Architecture "chip" of Entity "chip"
+# Error: COMP96_0113: processor.vhd : (363, 78): Positional associations must precede named associations.
+# Error: COMP96_0207: processor.vhd : (363, 0): No actual specified for local port "opalu".
+# Error: COMP96_0207: processor.vhd : (363, 0): No actual specified for local port "w".
+# Error: COMP96_0207: processor.vhd : (365, 0): No actual specified for local port "enable".
+# Error: COMP96_0207: processor.vhd : (365, 0): No actual specified for local port "w".
+# Error: COMP96_0207: processor.vhd : (365, 0): No actual specified for local port "RsCode".
+# Error: COMP96_0207: processor.vhd : (365, 0): No actual specified for local port "RdCode".
+# Error: COMP96_0207: processor.vhd : (365, 0): No actual specified for local port "RD".
+# Compile failure 8 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile Entity "chip"
+# Compile Architecture "chip" of Entity "chip"
+# Error: COMP96_0207: processor.vhd : (365, 0): No actual specified for local port "enable".
+# Error: COMP96_0207: processor.vhd : (365, 0): No actual specified for local port "w".
+# Error: COMP96_0207: processor.vhd : (365, 0): No actual specified for local port "RsCode".
+# Error: COMP96_0207: processor.vhd : (365, 0): No actual specified for local port "RdCode".
+# Error: COMP96_0207: processor.vhd : (365, 0): No actual specified for local port "RD".
+# Compile failure 5 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile Entity "chip"
+# Compile Architecture "chip" of Entity "chip"
+# Error: COMP96_0015: processor.vhd : (356, 24): ':' expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile Entity "chip"
+# Compile Architecture "chip" of Entity "chip"
+# Error: COMP96_0207: processor.vhd : (365, 0): No actual specified for local port "RD".
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.4 [s]
+acom -work Processor $DSN/src/processor.vhd
+# Compile...
+# File: C:\Documents and Settings\Jimmy\My Documents\projects\8086compipelineemvhdl\Processor\src\processor.vhd
+# Compile Package "p_intel_8086"
+# Compile Entity "regpl"
+# Compile Architecture "regpl" of Entity "regpl"
+# Compile Entity "reg16"
+# Compile Architecture "reg16" of Entity "reg16"
+# Compile Entity "reg_bank"
+# Compile Architecture "reg_bank" of Entity "reg_bank"
+# Compile Entity "alu"
+# Compile Architecture "alu" of Entity "alu"
+# Compile Entity "control_unit"
+# Compile Architecture "control_unit" of Entity "control_unit"
+# Compile Entity "biu"
+# Compile Architecture "biu" of Entity "biu"
+# Compile Entity "chip"
+# Compile Architecture "chip" of Entity "chip"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]

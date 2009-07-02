@@ -1,7 +1,7 @@
 [Version]
 Version=7.2
 [Designs]
-processor=.\processor\processor.adf
+processor=.\Processor\Processor.adf
 [Browser]
 sort=order
 mode=none
